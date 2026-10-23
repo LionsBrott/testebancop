@@ -2,13 +2,13 @@
 import java.sql.*;
 import java.util.Scanner;
 
-public class TesteBanco {
+public class teste {
 
     public static void main(String[] args) {
 
         String url = "jdbc:postgresql://localhost:5432/teste_java";
         String usuario = "postgres";
-        String senha = "sua_senha";
+        String senha = "senha";
 
         try (Scanner entrada = new Scanner(System.in);
              Connection conexao =
